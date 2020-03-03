@@ -89,4 +89,106 @@ border-right-style:solid;
 border-bottom-style:dotted;
 border-left-style:solid
 }
+margin:25px 50px 75px 100px
+top margin is 25px
+right margin is 50px
+bottom margin is 75px
+left margin is 100px
+
+div
+ {
+width:300px;
+margin:auto;
+border:1px solid red;
+}
+div
+{
+padding:25px 50px 73px 100px;
+}
+p.four
+{
+border-top-style:dotted;
+border-color: green;
+padding:5px;
+border:2px dashed red;
+}
+li
+{
+display:inline;
+}
+span
+{
+display:block;
+}
+a
+{
+display:block;
+}
+
+span.a
+{
+display:inline;
+width:100px;
+height:100px;
+padding:5px;
+border:1px solid blue;
+background-color:green;
+}
+span.b
+{
+display:inline-block;
+width:100px;
+height:100px;
+padding:5px;
+border:1px solid blue;
+background-color:yellow;
+}
+span.c
+{
+display:block;
+width:100px;
+height:100px;
+padding:5px;
+border:1px solid blue;
+background-color:red;
+}
+a#we
+{
+display:inline;
+color:blue;
+
+}
+a#re
+{
+display:inline;
+text-decoration:none;
+color:green;
+}
+a#ee
+{
+display:inline;
+text-decoration:none;
+border:1px solid blue;
+padding:5px;
+}
+a#ce
+{
+display:inline;
+text-decoration:none;
+border:1px solid blue;
+padding:5px;
+background-color:brown;
+}
+a#we:visited{color:pink;}
+a#re:hover{color:brown;}
+a#ee:active{color: powder blue;}
+
+
+
+
+
+
+
+
+
 
