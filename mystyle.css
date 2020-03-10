@@ -181,13 +181,34 @@ background-color:brown;
 }
 a#we:visited{color:pink;}
 a#re:hover{color:brown;}
-a#ee:active{color: powder blue;}
+a#ee:active{color: powder blue;
+}
 
+#menu::first-line
+{
+color:#ff0000;
+background-color:yellow;
+}
 
+#menu::first-letter
+{
+color:#ff0000;
+font-size:xx-large;
+}
 
+#menu::selection
+{
+color:blue;
+background:yellow;
+}
 
-
-
+#grad{
+background-image:linear-gradient(red,yellow);
+}
+#ss{
+background-image:radial-gradient(red,yellow,green,blue,pink,brown);
+}
+#rr
 
 
 
